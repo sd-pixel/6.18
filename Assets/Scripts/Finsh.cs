@@ -24,6 +24,7 @@ public class Finsh : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("11111111");
         transform.position += transform.right * moveSpeed * Time.deltaTime;
     }
 }
